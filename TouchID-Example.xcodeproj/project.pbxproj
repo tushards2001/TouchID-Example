@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		52BAF7C1200F618E004ACEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BAF7C0200F618E004ACEDF /* AppDelegate.swift */; };
 		52BAF7C3200F618E004ACEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BAF7C2200F618E004ACEDF /* ViewController.swift */; };
-		52BAF7C6200F618E004ACEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BAF7C4200F618E004ACEDF /* Main.storyboard */; };
 		52BAF7C8200F618E004ACEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BAF7C7200F618E004ACEDF /* Assets.xcassets */; };
 		52BAF7CB200F618E004ACEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BAF7C9200F618E004ACEDF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		52BAF7BD200F618E004ACEDF /* TouchID-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TouchID-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BAF7C0200F618E004ACEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BAF7C2200F618E004ACEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52BAF7C5200F618E004ACEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52BAF7C7200F618E004ACEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BAF7CA200F618E004ACEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52BAF7CC200F618E004ACEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				52BAF7C0200F618E004ACEDF /* AppDelegate.swift */,
 				52BAF7C2200F618E004ACEDF /* ViewController.swift */,
-				52BAF7C4200F618E004ACEDF /* Main.storyboard */,
 				52BAF7C7200F618E004ACEDF /* Assets.xcassets */,
 				52BAF7C9200F618E004ACEDF /* LaunchScreen.storyboard */,
 				52BAF7CC200F618E004ACEDF /* Info.plist */,
@@ -125,7 +122,6 @@
 			files = (
 				52BAF7CB200F618E004ACEDF /* LaunchScreen.storyboard in Resources */,
 				52BAF7C8200F618E004ACEDF /* Assets.xcassets in Resources */,
-				52BAF7C6200F618E004ACEDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52BAF7C4200F618E004ACEDF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52BAF7C5200F618E004ACEDF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52BAF7C9200F618E004ACEDF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -277,6 +265,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 845YHJXAK5;
 				INFOPLIST_FILE = "TouchID-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.basicdas.TouchID-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 845YHJXAK5;
 				INFOPLIST_FILE = "TouchID-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.basicdas.TouchID-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
